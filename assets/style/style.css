@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container_layout {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 35%;
+}
+
+@media (max-width: 767.98px) {
+  .container_layout {
+    width: 100%;
+  }
+}
+
+/*** Game Five ***/
+.game-five {
+  background-color: #212529;
+  height: 100vh;
+  color: white;
+  position: relative;
+  cursor: url("cursor.png") 10 10, auto;
+}
+
+.game-five .overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0%;
+  width: 100%;
+  background-color: #f5a503;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */
